@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceRoot}/bot.js",
+            "envFile": "${workspaceRoot}/.env",
+            "env": {
+                "SPARK_TOKEN": "ZDg0NDg0ZjgtNDQ1OS00NjYwLTliM2MtNzQwZTZjNTdlZGZiZDBkMzAxMzktNDQz",
+                "PUBLIC_URL": "https://fc9237fb.ngrok.io",
+                "DEBUG": "*"
+            }
+        }
+    ]
+}
