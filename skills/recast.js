@@ -1,11 +1,11 @@
 
 const recastai = require('recastai');
 
-// Several direction (up, left, right, down) intents (no entities)
+// Mutiple intents approach: up, left, right, down intents (no entities)
 const recast = new recastai.request('9dd85824b8718f9d0bf8244fb5bdfb07', 'en');
 //const recast = new recastai.request('9dd85824b8718f9d0bf8244fb5bdfb07', 'fr');
 
-// A single 'move' intent (direction-up, left, ... as entities)
+// Single intent approach: 'move' intent with direction-up, direction-left, ... entities
 //const recast = new recastai.request('25848725978fea50d64c7eba9e998f4d', 'en');
 
 module.exports = function (controller) {

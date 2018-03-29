@@ -8,7 +8,7 @@
             "program": "${workspaceRoot}/bot.js",
             "envFile": "${workspaceRoot}/.env",
             "env": {
-                "SPARK_TOKEN": "ZDg0NDg0ZjgtNDQ1OS00NjYwLTliM2MtNzQwZTZjNTdlZGZiZDBkMzAxMzktNDQz",
+                "SPARK_TOKEN": "PASTE_YOUR_SPARK_TOKEN",
                 "PUBLIC_URL": "https://fc9237fb.ngrok.io",
                 "DEBUG": "*"
             }
